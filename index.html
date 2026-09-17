@@ -1,165 +1,188 @@
-<!DOCTYPE html> 
-<html lang="en"> 
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Breiner Urbano, esta es mi pagina con mi hoja de vida</title>
+  </head>
 
- </head>
+  <body>
+    <main>
+      <section class="seccion" id="Información">
+        <header>
+          <!-- Contenido principal -->
 
-<body> 
- <header>
-    <!-- Información principal -->
+          <h1>Breiner Urbano</h1>
+          <h2>Ingeniero de Sistemas</h2>
+          <img
+            src="img/PF6ZWPO6C5DM5BJXUB7K3LK.avif"
+            alt="Fotografía de Breiner Urbano"
+            width="200"
+          />
+        </header>
+      </section>
+      <hr />
 
-    <h1>Breiner Urbano</h1>
-    <h2>Ingeniero de Sistemas</h2>
-    <img src="img/PF6ZWPO6C5DM5BJXUB7K3LK.avif" alt="Fotografía de Breiner Urbano" width="200">
+      <section class="seccion" id="Perfil">
+        <!-- Perfil profesional -->
 
- </header>
+        <div>
+          <h2>Perfil profesional</h2>
+          <p>
+            Ingeniero de Sistemas y Especialista en Construcción de Software y
+            Analista Deportivo Betplay
+          </p>
 
-    <hr>
+          <p>Interesado en el desarrollo de software y ciberseguridad.</p>
+        </div>
+      </section>
 
-<main>
+      <hr />
 
- <section>
-    <!-- Perfil profesional -->
-     
-  <div>
-  <h2>Perfil profesional</h2>
-    <p>
-      Ingeniero de Sistemas y Especialista en Construcción de Software y Analista Deportivo Betplay
-    </p>
+      <section class="seccion" id="Contacto">
+        <!-- Información de contacto -->
 
-    <p>
-      Interesado en el desarrollo de software y ciberseguridad.
-    </p>
-  </div>
- </section>
+        <div>
+          <h2>Información de contacto</h2>
 
-    <hr>
+          <p>Correo:
+             <a href="mailto:apbrecas@gmail.com">
+              apbrecas@gmail.com
+             </a>
+            </p>
+          <p>Teléfono:
+             <a href="tel:318 259 9086">318 259 9086
+             </a>
+            </p>
+          <p>Ciudad: Pasto, Colombia
+        </p>
+        <h3>Enviame un mensaje</h3>
+        <form action="">
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
 
-    <!-- Información de contacto -->
+          <label for="correo">Correo: </label>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required> 
 
-  <div>
-      <h2>Información de contacto</h2>
+          <label for="telefono">Telefono: </label>
+          <input type="number" id="telefono" name="telefono" placeholder="300 000 0000">
 
-    <p>Correo: apbrecas@gmail.com</p>
-    <p>Teléfono: 318 259 9086</p>
-    <p>Ciudad: Pasto, Colombia</p>
-  </div>
+          <label for="mensaje">Escribe tu mensaje: </label>
+          <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        </div>
+      </section>
+      <hr />
 
-    <hr>
+      <!-- Redes Sociales -->
+      <section class="seccion" id="Redes">
+        <div>
+          <h2>Mis redes sociales</h2>
 
- <section>
-    <!-- Redes Sociales -->
+          <ol>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank">Canal de Youtube</a>
+            </li>
+          </ol>
+        </div>
+      </section>
 
-  <div>
-      <h2>Mis redes sociales</h2>
+      <hr />
 
-    <ol>
-      <li>
-        <a href="https://www.instagram.com/"> Instagram </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/?locale=es_LA">Facebook</a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/">Canal de Youtube</a>
-      </li>
-    </ol>
-  </div>
- </section>
+      <section class="seccion" id="Educación">
+        <!-- Educación -->
 
-    <hr>
+        <div>
+          <h2>Educación</h2>
 
- <section>
-    <!-- Educación -->
-  <div>
+          <article class="Educación">
+            <ul>
+              <li>Ingeniería de Sistemas - Universidad Cesmag</li>
+              <li>
+                Especialización en Seguridad Informatica - Universidad Cesmag
+              </li>
+              <li>Tecnico en Ciencias Pecuarias y Agricolas - SENA</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-      <h2>Educación</h2>
+      <hr />
 
-  <article>
-    <ul>
-      <li>Ingeniería de Sistemas - Universidad Cesmag</li>
-      <li>Especialización en Seguridad Informatica - Universidad Cesmag</li>
-      <li>Tecnico en Ciencias Pecuarias y Agricolas - SENA</li>
-    </ul>
+      <section class="seccion" id="Experiencia">
+        <!-- Experiencia profesional -->
 
-  </article>
+        <div>
+          <h2>Experiencia profesional</h2>
+          <article class="Experiencia">
+            <ul>
+              <li>
+                Analista Deportivo - Betplay
+                <p>Análisis de datos y estadísticas deportivas.</p>
+              </li>
+              <li>
+                Desarrollador Web Junior
+                <p>Creación e implementación de páginas web con HTML.</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-  </div>
- </section>
+      <hr />
 
-    <hr>
+      <section class="seccion" id="Habilidades">
+        <!-- Habilidades -->
 
+        <h2>Habilidades</h2>
 
-<section>
-    <!-- Experiencia profesional -->
-     
-  <div>
-    <h2>Experiencia profesional</h2>
-    <article>
-  
-    <ul>
-      <li>
-        Analista Deportivo - Betplay
-        <p>Análisis de datos y estadísticas deportivas.</p>
-      </li>
-      <li>
-        Desarrollador Web Junior
-        <p>Creación e implementación de páginas web con HTML.</p>
-      </li>
-    </ul>
-    </article>
-  </div>
-</section>
+        <div>
+          <ul>
+            <li>Desarrollo Web en HTML</li>
+            <li>Análisis de Datos y Estadística</li>
+            <li>Ciberseguridad y Redes</li>
+            <li>Trabajo en equipo y resolución de problemas</li>
+            <li>Deportista de alto rendimiento</li>
+          </ul>
+        </div>
+      </section>
 
-    <hr>
+      <hr />
+      <section class="seccion" id="Proyectos">
+        <!-- Proyectos -->
 
-<section>
-    <!-- Habilidades -->
-    <h2>Habilidades</h2>
+        <div>
+          <h2>Proyectos</h2>
+          <ol>
+            <li>
+              Plataforma de Análisis Deportivo: Sistema para analizar eventos y
+              recolectar datos.
+            </li>
+            <li>Página Web Personal: Hoja de vida HTML.</li>
+          </ol>
+        </div>
+      </section>
 
-  <div>
-      <ul>
-      <li>Desarrollo Web en HTML </li>
-      <li>Análisis de Datos y Estadística</li>
-      <li>Ciberseguridad y Redes</li>
-      <li>Trabajo en equipo y resolución de problemas</li>
-      <li>Deportista de alto rendimiento</li>
-    </ul>
-  </div>
-</section>
+      <br />
+      <hr />
+      <hr />
+      <hr />
 
-    <hr>
- <section>
-    <!-- Proyectos -->
- <div>
-      <h2>Proyectos</h2>
-    <ol>
-      <li>
-        Plataforma de Análisis Deportivo: Sistema para analizar eventos y recolectar datos.
-      </li>
-      <li>
-        Página Web Personal: Hoja de vida HTML.
-      </li>
-    </ol>
-  </div>
-</section>
-
-    <br>
-    <hr>
-    <hr>
-    <hr>
-
-    <h2>
-      <a href="pasatiempos.html">Dale click aqui para conocer mis pasatiempos favoritos</a>
-    </h2>
-
-</main>
-  <footer>
-    <p>Hoja de vida - Breiner Urbano / Todos los derechos reservados 2026</p>
-  </footer>
-
-</body>
+      <h2>
+        <a href="pasatiempos.html"
+          >Dale click aqui para conocer mis pasatiempos favoritos</a
+        >
+      </h2>
+    </main>
+    <footer>
+      <p>Hoja de vida - Breiner Urbano / Todos los derechos reservados 2026</p>
+    </footer>
+  </body>
 </html>
