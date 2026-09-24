@@ -1,5 +1,5 @@
 body {
-  background-color: #c51717;
+  background-color: #2af3f3;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,14 +12,45 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  color: #0f5bd3;
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.6; /* SEPARACION INTERLINEADO */
+}
+
 /*===================================================
                  SECCIONES
 =====================================================*/
 
-.seccion {
-  background-color: white;
+.seccion { /* CLASE*/
+  background-color: #b56fe1;
 }
 
-#Perfil {
-  background-color: #0f5bd3;
+#Perfil { /* ID */
+  background-color: hsl(218, 35%, 67%);
 }
+
+/*===================================================
+                 ENCABEZADO
+=====================================================*/
+header {
+  background-color: hwb(0 65% 18%);
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+header h2 {
+  color: #1944b2;
+}
+
