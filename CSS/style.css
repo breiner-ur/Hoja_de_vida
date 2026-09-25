@@ -1,7 +1,13 @@
 body {
+  margin: 0;
   background-color: #2af3f3;
-  color: #333;
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /*===================================================
@@ -13,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color: #0f5bd3;
+  color: #d2e749;
   font-size: 28px;
 }
 
@@ -28,12 +34,27 @@ p {
 /*===================================================
                  SECCIONES
 =====================================================*/
+section {
+  /*ETIQUETA*/
+  background-color: white;
+  padding: 25px;
+  margin: 20px;
+  border: 1px solid #4907cd;
+  border-radius: 10px;
+}
 
-.seccion { /* CLASE*/
+.seccion h2 {
+  /*CLASE*/
+  margin-top: 0;
+}
+
+.seccion {
+  /* CLASE*/
   background-color: #b56fe1;
 }
 
-#Perfil { /* ID */
+#Perfil {
+  /* ID */
   background-color: hsl(218, 35%, 67%);
 }
 
@@ -54,3 +75,141 @@ header h2 {
   color: #1944b2;
 }
 
+header img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+/*===================================================
+                 ENLACES
+=====================================================*/
+a {
+  color: #0f5bd3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  text-decoration: underline;
+}
+
+/*===================================================
+                 LISTAS
+=====================================================*/
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/*===================================================
+                 FORMULARIO
+=====================================================*/
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/*===================================================
+                 TABLA
+=====================================================*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #1f2937;
+  color: white;
+}
+
+/*===================================================
+                 FORMACION
+=====================================================*/
+.formacion {
+  background-color: #f9fafb;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+/*===================================================
+                 EXPERIENCIA
+=====================================================*/
+.experiencia {
+  background-color: #f9fafb;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+/*===================================================
+                 PROYECTOS
+=====================================================*/
+.proyectos {
+  background-color: #f9fafb;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+/*===================================================
+                 PIE DE PAGINA
+=====================================================*/
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
